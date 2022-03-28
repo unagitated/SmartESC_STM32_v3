@@ -616,7 +616,7 @@ int main(void) {
 
 #ifdef ADCTHROTTLE
 
-		MS.i_q_setpoint=map(ui16_reg_adc_value,THROTTLEOFFSET,THROTTLEMAX,0,MS.phase_current_limit);
+		MS.i_q_setpoint=map(ui16_reg_adc_value,THROTTLEOFFSET,THROTTLEMAX,0,MP.phase_current_limit);
 #endif
 		// set power to zero at low voltage
 		if(MS.Voltage<BATTERYVOLTAGE_MIN){
