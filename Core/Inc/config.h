@@ -38,7 +38,7 @@
 
 // min and max values of throttle and brake signals in ADC counts
 #define THROTTLEOFFSET 45
-#define THROTTLEMAX 110
+#define THROTTLEMAX 150
 #define BRAKEOFFSET 50
 #define BRAKEMAX 190
 
@@ -47,8 +47,8 @@
 #define GEAR_RATIO 15 //15 for original M365 motor
 
 // speed limits for invividual modes in kph
-#define SPEEDLIMIT_ECO 6
-#define SPEEDLIMIT_NORMAL 20
+#define SPEEDLIMIT_ECO 18
+#define SPEEDLIMIT_NORMAL 30
 #define SPEEDLIMIT_SPORT 50
 
 // motor current limits for invividual modes in mA, see default settings at https://max.cfw.sh/#
